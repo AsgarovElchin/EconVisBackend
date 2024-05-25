@@ -12,4 +12,27 @@ public class ReportRequest {
     private List<Year> years;
 
     // Getters and Setters
+    public List<Country> getCountries() {
+        return countries;
+    }
+
+    public void setCountries(List<Country> countries) {
+        this.countries = countries;
+    }
+
+    public List<Indicator> getIndicators() {
+        return indicators;
+    }
+
+    public void setIndicators(List<Indicator> indicators) {
+        this.indicators = indicators;
+    }
+
+    public List<Year> getYears() {
+        return years;
+    }
+
+    public void setYears(List<Year> years) {
+        this.years = years;
+    }
 }
